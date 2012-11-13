@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Proxomo C# .NET MVC4 Example";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+
+        </div>
+    </section>
+}
+<h3>We suggest the following:</h3>
+<table>
+    <tr style="vertical-align: text-top">
+        <td>EVENT
+                    <ul>
+                        <li>
+                            <a href="/Home/EventsSample">EventAdd</a>
+                        </li>
+                        <li>
+                            <a href="/home/eventupdate">EventUpdate</a>
+                        </li>
+                        <li><a href="/home/eventget">EventGet</a></li>
+                        <li><a href="/home/eventcommentadd">EventCommentAdd</a></li>
+                        <li><a href="/home/eventparticipantinvite">EventParticipantInvite</a></li>
+                    </ul>
+
+        </td>
+        <td>GEOCODE
+                    <ul>
+                        <li>
+                            <a href="/Home/GeoCodeSample">GeoCode</a>
+                        </li>
+                        <li>
+                            <a href="/home/reversegeo">ReverseGeo</a>
+                        </li>
+                    </ul>
+        </td>
+        <td>CUSTOMDATA
+                    <ul>
+                        <li>
+                            <a href="/Home/GenerateData">CustomDataAdd</a>
+                        </li>
+                        <li>
+                            <a href="/home/customdataupdate">CustomDataUpdate</a>
+                        </li>
+                        <li>
+                            <a href="/home/customdatadelete">CustomDataDelete</a>
+                        </li>
+                    </ul>
+
+        </td>
+        <td>PERSON & FRIEND
+                    <ul>
+
+                        <li><a href="/home/personadd">PersonAdd</a></li>
+                        <li><a href="/home/personupdate">PersonUpdate</a></li>
+                        <li><a href="/home/persondelete">PersonDelete</a></li>
+                        <li>
+                            <a href="/home/advancedstuff">Friend</a>
+                        </li>
+                    </ul>
+        </td>
+        <td>APP DATA
+                    <ul>
+                        <li>
+                            <a href="/home/appdatasample">AppDataAdd</a>
+                        </li>
+                        <li>
+                            <a href="/home/appdataget">AppDataGet</a>
+                        </li>
+                        <li><a href="/home/appdataupdate">AppDataUodate</a></li>
+                        <li><a href="/home/appdatadelete">AppDataDelete</a></li>
+                    </ul>
+        </td>
+    </tr>
+</table>
