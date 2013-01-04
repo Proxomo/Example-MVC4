@@ -177,6 +177,7 @@ namespace CustomDataSample.Controllers
             e1.Status = 0;
             e1.MinParticipants = 0;
             e1.Privacy = EventPrivacy.Secret;
+            e1.LastUpdate = DateTime.Now;
             //event needs a person id
             e1.PersonID = personid;
 
@@ -214,6 +215,7 @@ namespace CustomDataSample.Controllers
             ec.EventID = e.ID;
             ec.PersonName = "some person";
             ec.PersonID = "";
+            ec.LastUpdate = DateTime.Now;
             api.EventCommentAdd(e.ID, ec);
             var cmt = api.EventCommentsGet(e.ID);
             result += "There are " + cmt.Count + " comments for this event <br/>";
