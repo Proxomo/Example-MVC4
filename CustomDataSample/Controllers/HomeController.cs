@@ -113,7 +113,7 @@ namespace CustomDataSample.Controllers
             ad.Value = "MyAppValue";
             //add an app data
             string result_id = api.AppDataAdd(ad);
-
+            ad.ID = result_id;
             ad.Value = "new updated value";
             string result = "";
             api.AppDataUpdate(ad);
