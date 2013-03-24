@@ -42,7 +42,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Proxomo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\Proxomo\SDK-DotNet\bin\Debug\Proxomo.dll</HintPath>
+      <HintPath>..\packages\ProxomoSDK.1.0.0\lib\Proxomo.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

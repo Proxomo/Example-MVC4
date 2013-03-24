@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ProxomoSDK</id>
+    <version>1.0.0</version>
+    <title>Proxomo .Net SDK</title>
+    <authors>Daniel Knoodle</authors>
+    <owners>Daniel Knoodle</owners>
+    <projectUrl>http://www.proxomo.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Proxomo .Net SDK</description>
+    <references>
+      <reference file="Proxomo.dll" />
+    </references>
+  </metadata>
+</package>
